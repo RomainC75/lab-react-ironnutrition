@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.list{
+  display:flex;
+  width:900px;
+  flex-wrap: wrap;
+}
+
+.displayHideButton{
+  font-weight:bold;
+}
+.displayHideButton.red{
+  color:black;
+  background-color: #f76969;
+}
+
+.displayHideButton.blue{
+  background-color: #5194d2;
+  color:white;
+}
+
+.sign{
+  width:50px;
+}
